@@ -5,7 +5,7 @@
 import csv
 import os
 
-path1 = "/Users/michaelmanthey/Documents/Bootcamp/Module_3_Python/Challenge/election_results.csv"
+path1 = "/Users/michaelmanthey/Documents/Bootcamp/Module_3_Python/Challenge/Resources/election_results.csv"
 path2 = "/Users/michaelmanthey/Documents/Bootcamp/Module_3_Python/Challenge/"
 
 # Add a variable to load a file from a path.
