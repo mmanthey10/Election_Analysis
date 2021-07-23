@@ -4,10 +4,11 @@ import os
 
 # assign variable to load a file from path
 
-path = "/Users/michaelmanthey/Documents/Bootcamp/Module_3_Python/Election_Analysis/election_results.csv"
+path1 = "/Users/michaelmanthey/Documents/Bootcamp/Module_3_Python/Challenge/election_results.csv"
+path2 = "/Users/michaelmanthey/Documents/Bootcamp/Module_3_Python/Challenge/"
 
-file_to_load = os.path.join(path)
-file_to_save = os.path.join(path)
+file_to_load = os.path.join(path1)
+file_to_save = os.path.join(path2, "election_analysis.txt")
 
 # initialize total vote counter
 total_votes = 0
@@ -27,7 +28,7 @@ with open(file_to_load) as election_data:
     file_reader = csv.reader(election_data)
     # Read the header row.
     headers = next(file_reader)
-    # Print each row in the CSV file.
+
     for row in file_reader:
         # Add to the total vote count.
         total_votes += 1
