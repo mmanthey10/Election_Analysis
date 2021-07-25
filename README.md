@@ -5,7 +5,7 @@ Provide election analysis to complete election audit and determine voter turnout
 
 ## Audit Results
 
-Election Results
+### Election Results
 -------------------------
 1. Total Votes: 369,711
 -------------------------
@@ -33,4 +33,5 @@ Election Results
 
 ## Audit Summary
 
-
+This script can be used for future election audits. In order to adapt the script to future elections, I would recommend the following solutions:
+* 
