@@ -2,3 +2,7 @@
 
 ## Project Overview
 Provide election analysis to complete election audit and determine winner.
+
+## Audit Results
+
+## Audit Summary
