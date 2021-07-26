@@ -34,4 +34,6 @@ Provide election analysis to complete election audit and determine voter turnout
 ## Audit Summary
 
 This script can be used for future election audits. In order to adapt the script to future elections, I would recommend the following solutions:
-* 
+* Include previous election data to track the voter turnout over time. 
+* Additionally, future audits could include voter turnout as a percentage of eligible voter to understand voter population participation rate.
+* Lastly, depending on state requirements, code could be added to add a logic statement to determine if a recount is required based on how close candidates are in vote totals.
